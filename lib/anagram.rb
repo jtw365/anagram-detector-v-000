@@ -11,7 +11,11 @@ class Anagram
   def match(words)
     words.collect do |ana|
       if word.split("").sort == ana.split("").sort
+        ana
+      end
+    end
         
+
     #binding.pry
   end
 end
