@@ -9,11 +9,8 @@ class Anagram
   end
 
   def match(words)
-    # if words.split("") == @word
-    #   true
-    # else
-    #   false
-    # end
+    words.collect do |ana|
+      if word.split("") == ana.split("")
     #binding.pry
   end
 end
