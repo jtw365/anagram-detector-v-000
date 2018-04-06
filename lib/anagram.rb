@@ -9,10 +9,11 @@ class Anagram
   end
 
   def match(words)
-    if words.split("") == @word
-      true
-    else
-      false
-    end
+    # if words.split("") == @word
+    #   true
+    # else
+    #   false
+    # end
+    binding.pry
   end
 end
