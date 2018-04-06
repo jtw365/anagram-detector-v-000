@@ -13,7 +13,7 @@ class Anagram
       if word.split("").sort == ana.split("").sort
         ana
       end
-    end
+    end.compact
 
 
     #binding.pry
